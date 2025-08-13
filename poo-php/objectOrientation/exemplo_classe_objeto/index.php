@@ -29,7 +29,16 @@ echo "Nome: {$usuario1->getNome()}<br>";
 //echo "</pre>";
 
 //Anotações lendárias ntj -> 
-//Padrões de projetos: MVC (Model View Control) -> Arquitetural (Di
-
-
+//Padrões de projetos: 
+//________________________________________________________
+//|MVC (Model View Control) -> Arquitetural (Organização)|
+//|Pastas -> Projetos (que contem as pastas) -> Views, controllers e models|
+//|-------------------------------------------------------|
+//|Models -> Armazena as classes de negócio (classes que pertencem ao contexto do software desenvolvido. Ex: Produto, Usuário, venda, etc...)|
+//|Views -> Html, css, php, javascript, frameworks (É no geral a camada da apresentação / front)|
+//|Controllers -> Controlador (Duh), cuida do endereçamento e trafego de execução (requisições), busca dados pra então apresentar.|
+//|^Contém classes que só contem metodos e não atributos|
+//|-----------------------------------------------------|
+//|index.php (externo do arquivo das pastas, mas ainda dentro do projeto)|
+//|_____________________________________________________|
 ?>
