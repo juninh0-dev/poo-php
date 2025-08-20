@@ -24,9 +24,9 @@
                 <td>{$dados->nome_produto}</td>
                 <td>$preco</td>
                 <td>$estoque</td>
-                <td><a href='index.php?controle=produtoController&metodo=alterar'>Alterar</a>
+                <td><a href='index.php?controle=produtoController&metodo=alterar&id{$dados->produto}'>Alterar</a>
                 &nbsp;&nbsp;
-                <a href='index.php?controle=produtoController&metodo=deletar'>Excluir</a>
+                <a href='index.php?controle=produtoController&metodo=deletar&id{$dados->produto}'>Excluir</a>
                 &nbsp;&nbsp;</td>
             </tr>";
         }
