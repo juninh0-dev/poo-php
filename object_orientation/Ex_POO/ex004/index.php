@@ -5,8 +5,8 @@ require_once "Shopping.class.php";
 require_once "Loja.class.php";
 require_once "Condominio.class.php";
 
-$proprietario = new Proprietario("123.456.789-00", "Carlos Silva");
-$shopping = new Shopping("12.345.678/0001-99");
+$proprietario = new Proprietario("154.525.555-53", "Carlos Silva");
+$shopping = new Shopping("56.535.636/2144-54");
 $loja = new Loja(5, "L-23");
 
 $condominio = new Condominio("01/11/2025", 2500.75, "10/11/2025");

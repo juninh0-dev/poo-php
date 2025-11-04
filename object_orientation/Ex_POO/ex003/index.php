@@ -7,11 +7,11 @@ require_once 'Item.class.php';
 require_once 'Agenda.class.php';
 
 // Criando cliente
-$cliente = new Cliente("123.456.789-00", "Juninho", "14 99999-8888");
+$cliente = new Cliente("543.524.531-05", "Juninho", "14 99872-2356");
 
 // Criando prestadores
-$prestador1 = new Prestador("Cabeleireiro", "Lucas", "14 98888-7777");
-$prestador2 = new Prestador("Barbeiro", "João", "14 97777-6666");
+$prestador1 = new Prestador("Cabeleireiro", "Lucas", "14 98552-7585");
+$prestador2 = new Prestador("Barbeiro", "João", "14 99587-4556");
 
 // Criando serviços
 $servico1 = new Servico("Corte de cabelo", 40.00);
