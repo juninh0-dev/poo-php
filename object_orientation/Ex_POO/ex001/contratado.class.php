@@ -1,5 +1,5 @@
 <?php 
-    class Contratado{
+    final class Contratado extends Pessoa{
         public function __construct(private string $cnpj = ""){}
 
         public function getCnpj(){

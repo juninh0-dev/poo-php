@@ -17,7 +17,7 @@
         }
         
         public function getPessoa(): ?Pessoa {
-        return $this->pessoa;
+            return $this->pessoa;
+        }
     }
-}
 ?>

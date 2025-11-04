@@ -19,8 +19,8 @@
 
         // Para pegar todos os telefones de uma pessoa
         public function getTelefones(): array {
-        return $this->telefone;
-    }
+            return $this->telefone;
+        }
     }
 
 ?>
