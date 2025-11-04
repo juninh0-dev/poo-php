@@ -5,7 +5,12 @@
         private ?Decoracao $decoracao = null;
         private ?Contratado $contratado = null;
         
-        public function __construct(private string $cpf = "") {}
+        public function __construct(
+            private string $cpf = "",
+            string $nome = ""
+            ){
+                parent:: __construct($nome);
+            }
 
         public function getCpf(){
             return $this->cpf;
