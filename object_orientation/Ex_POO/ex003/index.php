@@ -1,12 +1,10 @@
 <?php
-require_once 'agenda.class.php';
-require_once 'agenda.class.php'; 
-require_once 'cliente.class.php';  
-require_once 'pessoa.class.php';
-require_once 'prestador.class.php';  
-require_once 'servico.class.php';
-require_once 'item.class.php ';
-
+require_once 'Pessoa.class.php';
+require_once 'Cliente.class.php';
+require_once 'Prestador.class.php';
+require_once 'Servico.class.php';
+require_once 'Item.class.php';
+require_once 'Agenda.class.php';
 
 // Criando cliente
 $cliente = new Cliente("123.456.789-00", "Juninho", "14 99999-8888");
